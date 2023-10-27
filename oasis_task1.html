@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="oasis_task1.css">
+    </head>
+    <body>
+        <section class="main_section">
+            <table class="calci">
+                <tr>
+                    <td colspan="5" style="padding-bottom: 10px;" ><input type="text"  name="entry box" id="number1" value="" style="font-size:25px;" size="14"></td>
+                </tr>
+                <tr id="row1">
+                    <td ><input type="button" value="(" id="number" onclick="number1.value+='(' " style="background-color: rgb(245, 245, 107);color: black;"></td>
+                    <td ><input type="button" value=")" id="number" onclick="number1.value+=')' " style="background-color: rgb(245, 245, 107);color: black;"></td>
+                    <td ><input type="button" value="/" id="number" onclick="number1.value+='/' " style="background-color: rgb(245, 245, 107);color: black;"></td>
+                    <td ><input type="button" value="-" id="number" onclick="number1.value+='-' " style="background-color: rgb(245, 245, 107);color: black;"></td>
+                </tr>
+                <tr id="row1">
+                    <td ><input type="button" value="7" id="number" onclick="number1.value+='7' "></td>
+                    <td ><input type="button" value="8" id="number" onclick="number1.value+='8' "></td>
+                    <td ><input type="button" value="9" id="number" onclick="number1.value+='9' "></td>
+                    <td ><input type="button" value="%" id="number" style="padding-right: 25px;background-color: rgb(245, 245, 107);color: black;"" onclick="number1.value+='%' " ></td>
+                </tr>
+                <tr id="row1">
+                    <td ><input type="button" value="4" id="number" onclick="number1.value+='4' "></td>
+                    <td ><input type="button" value="5" id="number" onclick="number1.value+='5' "></td>
+                    <td ><input type="button" value="6" id="number" onclick="number1.value+='6' "></td>
+                    <td ><input type="button" value="*" id="number" style="padding-right: 31px;background-color: rgb(245, 245, 107);color: black;" onclick="number1.value+='*' " ></td>
+                </tr>
+                <tr id="row1">
+                    <td ><input type="button" value="1" id="number" onclick="number1.value+='1' "></td>
+                    <td ><input type="button" value="2" id="number" onclick="number1.value+='2' "></td>
+                    <td ><input type="button" value="3" id="number" onclick="number1.value+='3' "></td>
+                    <td ><input type="button" value="+" id="number" onclick="number1.value+='+' " style="background-color: rgb(245, 245, 107);color: black;"></td>
+                </tr>
+                <tr id="row1">
+                    <td ><input type="button" value="." id="number" style="padding-right: 33px;" onclick="number1.value+='.' "></td>
+                    <td ><input type="button" value="0" id="number" onclick="number1.value+='0' "></td>
+                    <td><input type="button" value="c" id="number" onclick="number1.value='' "></td>
+                    <td><input type="button" value="="id="number" style="background-color: rgb(245, 245, 107);color: black;" onclick="number1.value=eval(number1.value)"></td>
+                </tr>
+
+            </table>
+        </section>
+    </body>
+</html>

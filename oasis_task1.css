@@ -1,0 +1,49 @@
+.main_section{
+    margin-top: 7%;
+    margin-left: 35%;
+    margin-right: 41%;
+    box-shadow: 0px 6px 11px 0px black;
+    border-radius: 6%;
+    background-color:black;
+   
+    
+}
+.calci{
+    border: 0px;
+    border-style: solid;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 5%;
+    padding-left: 2%;
+
+}
+#number{
+    border:0px;
+    font-size: 18px;
+    padding-left: 33px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    border-radius: 75%;
+    margin-bottom: 10px;
+    background-color:rgb(71, 70, 70);
+    color:white;
+    box-shadow: 0px 1px 3px 0px;
+}
+body{
+    background-color:rgb(143, 135, 135);
+}
+
+#number1{
+    border:0px;
+    padding-left: 33px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    border-radius: 75px;
+    margin-bottom: 10px;
+    color:white;
+    background-color:rgb(71, 70, 70);
+    box-shadow: 0px 1px 3px 0px  ;  
+    text-align: right;
+}
